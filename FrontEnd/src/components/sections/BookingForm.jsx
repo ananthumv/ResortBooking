@@ -49,7 +49,7 @@ export default function BookingForm() {
     setErrors([]);
 
     try {
-      await axios.post('http://localhost:5000/api/bookings', formData);
+      await axios.post('https://resortbooking-v7er.onrender.com/api/bookings', formData);
       alert('Booking successful!');
       setFormData({
         fullName: '',
