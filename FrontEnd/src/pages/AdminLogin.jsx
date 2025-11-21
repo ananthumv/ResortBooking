@@ -12,7 +12,7 @@ export default function AdminLogin() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const res = await axios.post('http://localhost:5000/api/admin/login', formData);
+      const res = await axios.post('https://resortbooking-v7er.onrender.com/api/admin/login', formData);
       localStorage.setItem('adminToken', res.data.token);
       navigate('/admin/dashboard'); 
     } catch (err) {
