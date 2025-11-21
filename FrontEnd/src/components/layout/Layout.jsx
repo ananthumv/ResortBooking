@@ -59,27 +59,6 @@ export default function Layout({ children }) {
             </div>
             <div className="text-xs text-gray-500">All rights reserved.</div>
           </div>
-
-          <div className="flex items-center gap-4">
-            <a
-              href="#"
-              className="text-gray-600 hover:text-primary transition-colors"
-            >
-              Facebook
-            </a>
-            <a
-              href="#"
-              className="text-gray-600 hover:text-primary transition-colors"
-            >
-              Instagram
-            </a>
-            <a
-              href="#"
-              className="text-gray-600 hover:text-primary transition-colors"
-            >
-              Twitter
-            </a>
-          </div>
         </div>
       </footer>
     </div>
