@@ -16,6 +16,7 @@ function AppWrapper() {
       <Route path="/" element={<Layout><Home /></Layout>} />
       <Route path="/admin/login" element={<AdminLogin onLogin={() => navigate('/admin/dashboard')} />} />
       <Route path="/admin/dashboard" element={<AdminDashboard />} />
+      <Route path="*" element={<NotFound />} />
     </Routes>
   );
 }
