@@ -1,0 +1,6 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container-wide { @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 }
+.hero-overlay { background: linear-gradient(180deg, rgba(0,0,0,0.35), rgba(0,0,0,0.2)); }
