@@ -15,7 +15,7 @@ export default function AdminDashboard() {
           return;
         }
 
-        const res = await axios.get('http://localhost:5000/api/admin/bookings', {
+        const res = await axios.get('https://resortbooking-v7er.onrender.com/api/admin/bookings', {
           headers: { Authorization: `Bearer ${token}` },
         });
         setBookings(res.data);
